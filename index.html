@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Leonov - Audio Software Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .overlay img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+    </style>
+</head>
+<body class="bg-[#222222] font-sans text-[#f0f0f0]">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center mb-6">Daniel Leonov - Audio Software Portfolio</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 224351.png" alt="Singularity Bass Main screen" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Main screen)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 224456.png" alt="Drumforge Mixer page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="#" class="text-blue-300">Drumforge</a> (Mixer page)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 224756.png" alt="Singularity Bass Midi Settings page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Midi Settings page)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 224817.png" alt="Singularity Bass Key Switches page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Key Switches page)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 225030.png" alt="Drumforge Classic Midi mapping page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic" class="text-blue-300">Drumforge Classic</a> (Midi mapping page)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 225049.png" alt="Drumforge Classic Drum Bleed page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic" class="text-blue-300">Drumforge Classic</a> (Drum Bleed page)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 225220.png" alt="Drumforge Classic Mixer page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic" class="text-blue-300">Drumforge Classic</a> (Mixer page)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 225328.png" alt="Galileo" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/galileo" class="text-blue-300">Galileo</a></p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-05 225801.png" alt="HEARS Main page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://hearsplugins.com/" class="text-blue-300">HEARS Plugins</a> - <a href="https://hearsplugins.com/product/hears-for-macos/" class="text-blue-300">HEARS</a> (Main page)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-12 050401.png" alt="Subkicker" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center">Daniel Leonov Plugs - Subkicker</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2024-09-17 184940.png" alt="Stratus Plugin Suite Multiple plugins" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="#" class="text-blue-300">Stratus Plugin Suite</a> (Multiple plugins)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2025-08-05 211725.png" alt="Stratus Plugin Suite Installer" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="#" class="text-blue-300">Stratus Plugin Suite</a> (Installer)</p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/Screenshot 2025-08-05 212012.png" alt="Daniel Leonov Effect Suite" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/spring-reverb-60s-surf-tank" class="text-blue-300">Daniel Leonov Effect Suite</a></p>
+            </div>
+            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+                <img src="Screenshots/96532ef0-f2ad-11eb-80f4-9d2e567f5534.jpg" alt="Kickforge Main view" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
+                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/kickforge" class="text-blue-300">Kickforge</a> (Main view)</p>
+            </div>
+        </div>
+    </div>
+    <div id="overlay" class="overlay" onclick="this.style.display='none'">
+        <img id="fullImage" src="" alt="Full Size Image">
+    </div>
+    <script>
+        function showImage(src) {
+            const overlay = document.getElementById('overlay');
+            const fullImage = document.getElementById('fullImage');
+            fullImage.src = src;
+            overlay.style.display = 'flex';
+        }
+    </script>
+</body>
+</html>
