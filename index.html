@@ -22,138 +22,162 @@
             max-width: 90%;
             max-height: 90%;
         }
+        body {
+            background-color: #191724;
+        }
+        div.portfolio-card {
+            background-color: #26233a;
+        }
+        div.portfolio-card:hover {
+            background-color: #292339;
+        }
+        h1 {
+            color: #f6c177;
+        }
+        h2 {
+            color: #eb6f92;
+        }
+        .portfolio-card a {
+            color: #ebbcba;
+        }
+        .portfolio-card a:hover {
+            text-decoration: underline;
+        }
+        .portfolio-card p {
+            color: #e0def4;
+        }
     </style>
 </head>
-<body class="bg-[#222222] font-sans text-[#f0f0f0]">
+<body class="font-sans text-[#f0f0f0]">
     <div class="container mx-auto p-4">
         <h1 class="text-3xl font-bold text-center mb-6">Daniel Leonov - Audio Software Portfolio</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 224351.png" alt="Singularity Bass Main screen" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Main screen)</p>
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/">Singularity Bass</a> (Main screen)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 224456.png" alt="Drumforge Mixer page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="#" class="text-blue-300">Drumforge</a> (Mixer page)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="#">Drumforge</a> (Mixer page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-08-06 032510.png" alt="Singularity Bass Main screen" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Animation)</p>
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/">Singularity Bass</a> (Animation)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-08-08 075627.png" alt="HEARS Main page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://hearsplugins.com/" class="text-blue-300">HEARS Plugins</a> - <a href="https://hearsplugins.com/product/hears-for-macos/" class="text-blue-300">HEARS</a> (Main page)</p>
+                <p class="mt-2 text-center"><a href="https://hearsplugins.com/">HEARS Plugins</a> - <a href="https://hearsplugins.com/product/hears-for-macos/">HEARS</a> (Main page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-12 050401.png" alt="Subkicker" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
                 <p class="mt-2 text-center">Daniel Leonov Plugs - Subkicker</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/DSC00568S.jpg" alt="Stratus Transmitter effect" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="https://stratus.chaosaudio.com/" class="text-blue-300">Stratus</a> (Transmitter effect)</p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - <a href="https://stratus.chaosaudio.com/">Stratus</a> (Transmitter effect)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/96532ef0-f2ad-11eb-80f4-9d2e567f5534.jpg" alt="Kickforge Main view" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/kickforge" class="text-blue-300">Kickforge</a> (Main view)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/kickforge">Kickforge</a> (Main view)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-08-05 212012.png" alt="Daniel Leonov Effect Suite" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/spring-reverb-60s-surf-tank" class="text-blue-300">Daniel Leonov Effect Suite</a></p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/spring-reverb-60s-surf-tank">Daniel Leonov Effect Suite</a></p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 225030.png" alt="Drumforge Classic Midi mapping page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic" class="text-blue-300">Drumforge Classic</a> (Midi mapping page)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic">Drumforge Classic</a> (Midi mapping page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 224756.png" alt="Singularity Bass Midi Settings page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Midi Settings page)</p>
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/">Singularity Bass</a> (Midi Settings page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 225328.png" alt="Galileo" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/galileo" class="text-blue-300">Galileo</a></p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/galileo">Galileo</a></p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-17 184940.png" alt="Stratus Plugin Suite Multiple plugins" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="#" class="text-blue-300">Stratus Plugin Suite</a> (Multiple plugins)</p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - <a href="#">Stratus Plugin Suite</a> (Multiple plugins)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 225049.png" alt="Drumforge Classic Drum Bleed page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic" class="text-blue-300">Drumforge Classic</a> (Drum Bleed page)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic">Drumforge Classic</a> (Drum Bleed page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 225220.png" alt="Drumforge Classic Mixer page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic" class="text-blue-300">Drumforge Classic</a> (Mixer page)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/drumforge-classic">Drumforge Classic</a> (Mixer page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-08-05 211725.png" alt="Stratus Plugin Suite Installer" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="#" class="text-blue-300">Stratus Plugin Suite</a> (Installer)</p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - <a href="#">Stratus Plugin Suite</a> (Installer)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-04-20 054107.png" alt="Chaos Audio Web App" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - Stratus Web Interface (IR uploading page)</p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - Stratus Web Interface (IR uploading page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/kf-curve.PNG" alt="Kickforge Velocity curve" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/kickforge" class="text-blue-300">Kickforge</a> (Velocity curve)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/kickforge">Kickforge</a> (Velocity curve)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-08-08 030047.png" alt="Streammaster" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
                 <p class="mt-2 text-center">Daniel Leonov Plugs - Streammaster (Master mode)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-08-07 230022.png" alt="Kickforge FX page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/kickforge" class="text-blue-300">Kickforge</a> (FX page)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/kickforge">Kickforge</a> (FX page)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2025-08-08 030152.png" alt="Transcriber" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
                 <p class="mt-2 text-center">Daniel Leonov Plugs - Transcriber</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/DSC00562S.jpg" alt="Stratus Silicon Echo effect" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="https://stratus.chaosaudio.com/" class="text-blue-300">Stratus</a> (Silicon Echo effect)</p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - <a href="https://stratus.chaosaudio.com/">Stratus</a> (Silicon Echo effect)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <img src="Screenshots/Screenshot 2024-09-05 224817.png" alt="Singularity Bass Key Switches page" class="w-full h-48 object-contain rounded cursor-pointer" onclick="showImage(this.src)">
-                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Key Switches page)</p>
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/">Singularity Bass</a> (Key Switches page)</p>
             </div>
         </div>
         <h2 class="text-2xl font-bold text-center mt-10 mb-6">Videos</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <a href="https://www.youtube.com/watch?v=jco5peMo4og" target="_blank">
                     <img src="https://img.youtube.com/vi/jco5peMo4og/0.jpg" alt="Singularity Bass Product Walkthrough" class="w-full h-48 object-contain rounded cursor-pointer">
                 </a>
-                <p class="mt-2 text-center"><a href="https://spectredigital.com/" class="text-blue-300">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/" class="text-blue-300">Singularity Bass</a> (Product Walkthrough)</p>
+                <p class="mt-2 text-center"><a href="https://spectredigital.com/">Spectre Digital</a> - <a href="https://spectredigital.com/products/singularity-bass/">Singularity Bass</a> (Product Walkthrough)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <a href="https://www.youtube.com/watch?v=9TKwjEIXPBo" target="_blank">
                     <img src="https://img.youtube.com/vi/9TKwjEIXPBo/0.jpg" alt="Spring Reverb Demo" class="w-full h-48 object-contain rounded cursor-pointer">
                 </a>
-                <p class="mt-2 text-center"><a href="https://chaosaudio.com/" class="text-blue-300">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/spring-reverb-60s-surf-tank" class="text-blue-300">Spring Reverb</a> (Demo)</p>
+                <p class="mt-2 text-center"><a href="https://chaosaudio.com/">Chaos Audio</a> - <a href="https://chaosaudio.com/collections/tone-shop/products/spring-reverb-60s-surf-tank">Spring Reverb</a> (Demo)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <a href="https://www.youtube.com/watch?v=Crp5Te35820" target="_blank">
                     <img src="https://img.youtube.com/vi/Crp5Te35820/0.jpg" alt="HEARS Product introduction" class="w-full h-48 object-contain rounded cursor-pointer">
                 </a>
-                <p class="mt-2 text-center"><a href="https://hearsplugins.com/" class="text-blue-300">HEARS Plugins</a> - <a href="https://hearsplugins.com/product/hears-for-macos/" class="text-blue-300">HEARS</a> (Product introduction)</p>
+                <p class="mt-2 text-center"><a href="https://hearsplugins.com/">HEARS Plugins</a> - <a href="https://hearsplugins.com/product/hears-for-macos/">HEARS</a> (Product introduction)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <a href="https://www.youtube.com/watch?v=eGL_pO1yJ8I" target="_blank">
                     <img src="https://img.youtube.com/vi/eGL_pO1yJ8I/0.jpg" alt="HEARS Tutorial" class="w-full h-48 object-contain rounded cursor-pointer">
                 </a>
-                <p class="mt-2 text-center"><a href="https://hearsplugins.com/" class="text-blue-300">HEARS Plugins</a> - <a href="https://hearsplugins.com/product/hears-for-macos/" class="text-blue-300">HEARS</a> (Tutorial)</p>
+                <p class="mt-2 text-center"><a href="https://hearsplugins.com/">HEARS Plugins</a> - <a href="https://hearsplugins.com/product/hears-for-macos/">HEARS</a> (Tutorial)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <a href="https://youtu.be/_Jb-o4x5yGI" target="_blank">
                     <img src="https://img.youtube.com/vi/_Jb-o4x5yGI/0.jpg" alt="Kickforge Product Introduction" class="w-full h-48 object-contain rounded cursor-pointer">
                 </a>
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/kickforge" class="text-blue-300">Kickforge</a> (Product Introduction)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/kickforge">Kickforge</a> (Product Introduction)</p>
             </div>
-            <div class="bg-[#181818] p-4 rounded-lg shadow-md">
+            <div class="portfolio-card p-4 rounded-lg shadow-md">
                 <a href="https://www.youtube.com/watch?v=2wUZ7LBkeCs" target="_blank">
                     <img src="https://img.youtube.com/vi/2wUZ7LBkeCs/0.jpg" alt="Kickforge Tutorial" class="w-full h-48 object-contain rounded cursor-pointer">
                 </a>
-                <p class="mt-2 text-center"><a href="https://drumforge.com/" class="text-blue-300">Drumforge</a> - <a href="https://drumforge.com/products/kickforge" class="text-blue-300">Kickforge</a> (Tutorial)</p>
+                <p class="mt-2 text-center"><a href="https://drumforge.com/">Drumforge</a> - <a href="https://drumforge.com/products/kickforge">Kickforge</a> (Tutorial)</p>
             </div>
     </div>
     <div id="overlay" class="overlay" onclick="this.style.display='none'">
